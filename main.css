@@ -1,0 +1,86 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  position: relative;
+
+}
+article{
+  position:relative;
+  left:35%;
+}
+header {
+
+  background: #394674;
+  color: #fff;
+  width: 100%;
+  padding: 0.5rem;
+}
+
+nav {
+  position: relative;
+}
+
+form {
+  max-width: 1000px;
+  flex-direction: column;
+  padding: 2rem;
+}
+
+footer {
+  background: #394674;
+  color: #fff;
+  width: 100%;
+  padding: 0.5rem;
+  position:relative ;
+  bottom:0;
+  left:0;
+}
+
+#aluno{
+  margin-left: auto;
+  margin-right: auto;
+
+}
+.informacoes{
+  display: inline-block;
+  padding: 20px 50px;
+  
+}
+.imagem{
+
+  display: inline-block;
+  padding: 20px 50px;
+}
+div::first-line {
+  text-transform: uppercase;
+}
+.painel{
+  font-family: "Crimson Text", "Times New Roman", serif;
+}
+#history{
+  background-image:url(/image/brasao2_vertical_monocromatico_72dpi.png);
+  background-repeat:1;
+  
+  
+}
+.menu{
+  background-color: #394674;
+  color: #fff;
+}
+.plena_vista{
+  display: none;
+}
+a{
+  display: block;
+}
+.aver{
+  display: block;
+  color: grey;
+  margin:0;
+  text-align: center;
+  position: relative;
+  left:25px;
+}
